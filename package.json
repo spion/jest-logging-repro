@@ -1,0 +1,16 @@
+{
+  "name": "jest-console-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "jest": {
+    "verbose": true,
+    "testRegex": "(/tests2/.*|\\.(test|spec))\\.(js|jsx)$",
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "jest": "^23.4.1"
+  }
+}
